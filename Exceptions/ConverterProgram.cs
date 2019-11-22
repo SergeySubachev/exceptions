@@ -27,7 +27,7 @@ namespace Exceptions
             catch (Exception e)
             {
                 //TODO объяснить
-                //throw e;
+                //throw e; - теряет Stack trace!!!
                 //throw new Exception("11", e);
                 //throw;
 
